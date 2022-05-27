@@ -1,7 +1,8 @@
-$(function() {
+$(document).ready(function() {
     let list_ids = [];
     let list_names = [];
     $('li input').on('click', function (data) {
+      console.log(data)
       const id = $(this).data('id');
       if ($(this).is(':checked')) {
         list_ids.push(id);
