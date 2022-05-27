@@ -13,6 +13,6 @@ $(function() {
           list_names.splice(idx, 1);
         }
       }
-      $('.amenities h4').text(String(lis_names));
+      $('.amenities h4').text(String(list_names));
     });
 });
